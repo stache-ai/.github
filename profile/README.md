@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
-**Storage for AI** - A production-ready infrastructure layer that gives AI systems persistent memory and knowledge retrieval through RAG (Retrieval-Augmented Generation). Plugin-based architecture with direct API calls to OpenAI/Anthropic/Ollama/Bedrock and support for Qdrant, Pinecone, S3 Vectors, and more.
+**Curated Storage for AI** - A production-ready infrastructure layer that gives AI systems persistent memory and knowledge retrieval through RAG (Retrieval-Augmented Generation). Plugin-based architecture with direct API calls to OpenAI/Anthropic/Ollama/Bedrock and support for Qdrant, Pinecone, S3 Vectors, and more.
 
 ---
 
@@ -77,7 +77,7 @@ Stache supports multiple vector database providers. Here's what works on each:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/stache-ai/stache.git
+git clone https://github.com/stache-ai/stache-ai.git
 cd stache
 
 # 2. Configure environment
@@ -92,6 +92,14 @@ open http://localhost:8000
 ```
 
 That's it.
+
+### Use with Claude (MCP)
+
+Connect Stache to Claude Desktop/Code for AI-powered knowledge retrieval:
+
+→ **[stache-tools setup guide](https://github.com/stache-ai/stache-tools#quick-start)**
+
+Windows users: Download `stache-mcp.exe` from [releases](https://github.com/stache-ai/stache-tools/releases) - no Python needed.
 
 ### Docker Hub
 
